@@ -1,5 +1,9 @@
 package pl.javastart.task;
 
+import pl.javastart.task.aplication.CustomerService;
+import pl.javastart.task.aplication.Offer;
+import pl.javastart.task.aplication.SalesRepresentative;
+
 public class Main {
     public static void main(String[] args) {
         SalesRepresentative salesRepresentative = new SalesRepresentative();
@@ -18,5 +22,6 @@ public class Main {
         customerService.payoutOffer(offer);
         Offer offer1 = salesRepresentative.createLoanOffer(10_000_000, 999);
         customerService.payoutOffer(offer1);
+
     }
 }

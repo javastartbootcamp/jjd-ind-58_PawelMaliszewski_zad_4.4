@@ -1,8 +1,8 @@
-package pl.javastart.task;
+package pl.javastart.task.aplication;
 
 public class SalesRepresentative {
 
-    public Config config;
+    Config config;
 
     public SalesRepresentative() {
         this.config = new Config();
@@ -17,5 +17,4 @@ public class SalesRepresentative {
         }
         return offer;
     }
-
 }
